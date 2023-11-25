@@ -1,0 +1,73 @@
+.navigation {
+  align-items: center;
+  background-color: #827d7d;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 24px;
+  justify-content: space-between;
+  padding: 24px 42px;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 100; /* Set a higher value */
+
+}
+  
+.navigation .text-wrapper {
+  color: #ffffff;
+  font-family: var(--subtitle-font-family);
+  font-size: var(--subtitle-font-size);
+  font-style: var(--subtitle-font-style);
+  font-weight: var(--subtitle-font-weight);
+  letter-spacing: var(--subtitle-letter-spacing);
+  line-height: var(--subtitle-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+  text-decoration: none;
+}
+  
+.navigation .menu-items {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 24px;
+  justify-content: flex-end;
+  position: relative;
+}
+  
+.navigation .div {
+  color: var(--white);
+  font-family: var(--body-text-font-family);
+  font-size: var(--body-text-font-size);
+  font-style: var(--body-text-font-style);
+  font-weight: var(--body-text-font-weight);
+  letter-spacing: var(--body-text-letter-spacing);
+  line-height: var(--body-text-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+  text-decoration: none;
+}
+
+#skills {
+  padding-top: 100px;
+}
+
+#work {
+  padding-top: 100px;
+}
+
+#edu {
+  padding-top: 80px;
+}
+
+#cert {
+  padding-top: 100px;
+}
+
+#contact {
+  padding-top: 100px;
+}

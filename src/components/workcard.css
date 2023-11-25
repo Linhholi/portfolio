@@ -1,0 +1,42 @@
+.gallery-card {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+}
+
+.gallery-card .image {
+    align-self: stretch;
+    height: 330px;
+    object-fit: contain;
+    position: relative;
+    width: 100%;
+}
+
+.gallery-card .title-description {
+    align-items: flex-start;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+}
+
+.gallery-card .project-title {
+    color: #2d2d2d;
+    font-family: "Epilogue-SemiBold", Helvetica;
+    font-weight: 600;
+    letter-spacing: 0;
+    margin-top: -1px;
+    position: relative;
+}
+
+.gallery-card .UI-art-drection {
+    color: #2d2d2d;
+    font-family: "Epilogue-Regular", Helvetica;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 27px;
+    position: relative;
+}
+

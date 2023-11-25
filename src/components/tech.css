@@ -1,0 +1,15 @@
+.tech-skills {
+    align-items: center;
+    background-color: #c1bebe;
+    display: flex;
+    padding: 42px 24px;
+    position: relative;
+    justify-content: center;
+  }
+  
+  .tech-skills .image {
+    height: 100px;
+    object-fit: cover;
+    position: relative;
+  }
+  

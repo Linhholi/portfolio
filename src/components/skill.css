@@ -1,0 +1,90 @@
+.skills-section {
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  padding: 42px 24px;
+  position: relative;
+}
+
+.skills-section .text-wrapper {
+  color: #000000;
+  font-family: "Epilogue-SemiBold", Helvetica;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 42px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.skills-section .cards-section {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 24px;
+  height: 335px;
+  position: relative;
+  width: 100%;
+}
+
+.skills-section .skills-card-instance {
+  flex: 1 !important;
+  flex-grow: 1 !important;
+  margin-bottom: -9px !important;
+  min-width: 320px !important;
+  width: unset !important;
+}
+
+.skills-section .design-component-instance-node {
+  height: 55px !important;
+  left: 11px !important;
+  width: 53px !important;
+}
+
+.skills-section .skills-card-2 {
+  height: 64px !important;
+  width: 64px !important;
+}
+
+.skills-section .skills-card-3 {
+  text-align: justify !important;
+}
+
+.skills-section .skills-card-4 {
+  height: 120px !important;
+  top: -30px !important;
+}
+
+.skills-section .div {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 24px;
+  height: 294px;
+  position: relative;
+  width: 100%;
+}
+
+.skills-section .skills-card-5 {
+  flex: 1 !important;
+  flex-grow: 1 !important;
+  margin-bottom: -50px !important;
+  min-width: 320px !important;
+  width: unset !important;
+}
+
+.skills-section .skills-card-6 {
+  transform: unset !important;
+}
+
+.skills-section .skills-card-7 {
+  height: 64px !important;
+  transform: unset !important;
+  width: 64px !important;
+}

@@ -1,0 +1,39 @@
+.tech-skills {
+    align-items: center;
+    background-color: #c1bebe;
+    display: flex;
+    /* gap: 86px;  */
+    padding: 42px 24px;
+    position: relative;
+    /* width: 1280px; */
+  }
+  
+  .tech-skills .text-wrapper {
+    color: #000000;
+    font-family: var(--h2-font-family);
+    font-size: var(--h2-font-size);
+    font-style: var(--h2-font-style);
+    font-weight: var(--h2-font-weight);
+    height: 107px;
+    letter-spacing: var(--h2-letter-spacing);
+    line-height: var(--h2-line-height);
+    /* margin-top: -1px; */
+    position: relative;
+    text-align: center;
+    width: 572px;
+  }
+  
+  .tech-skills .image {
+    height: 100px;
+    object-fit: cover;
+    position: relative;
+    /* width: 107px; */
+  }
+  
+  .tech-skills .img {
+    height: 100px;
+    object-fit: cover;
+    position: relative;
+    /* width: 113px; */
+  }
+  

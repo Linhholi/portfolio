@@ -1,0 +1,105 @@
+.skills-card {
+    background-color: #ffffff;
+    display: flex;
+    padding: 64px 42px;
+    position: relative;
+}
+
+.skills-card .title-description {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 12px;
+    position: relative;
+    width: 100%;
+}
+
+.skills-card .title {
+    align-self: stretch;
+    color: #2d2d2d;
+    font-family: "Epilogue-SemiBold", Helvetica;
+    font-size: 27px;
+    font-weight: 600;
+    height: 42px;
+    letter-spacing: 0;
+    line-height: 42px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.skills-card .this-is-a-template {
+    align-self: stretch;
+    color: #2d2d2d;
+    font-family: "Epilogue-Regular", Helvetica;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 27px;
+    position: relative;
+    text-align: center;
+}
+
+.skills-card .skills-card-icon-instance {
+    height: 64px !important;
+    width: 64px !important;
+}
+
+.skills-card .instance-node {
+    height: 55px !important;
+    left: 11px !important;
+    width: 53px !important;
+}
+
+.skills-card .div {
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 12px;
+    min-width: 200px;
+    position: relative;
+}
+
+.skills-card .text-wrapper {
+    align-self: stretch;
+    color: #2d2d2d;
+    font-family: "Epilogue-SemiBold", Helvetica;
+    font-size: 27px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 42px;
+    margin-top: -1px;
+    position: relative;
+}
+
+.skills-card .p {
+    align-self: stretch;
+    color: #2d2d2d;
+    font-family: "Epilogue-Regular", Helvetica;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 27px;
+    position: relative;
+}
+
+.skills-card.vertical {
+    align-items: center;
+    flex-direction: column;
+    gap: 42px;
+    justify-content: center;
+    width: 320px;
+}
+
+.skills-card.horizontal {
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 42px 42px;
+    width: 638px;
+}
+  
